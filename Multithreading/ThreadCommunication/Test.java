@@ -64,7 +64,7 @@ class Consumer implements Runnable {
     }
 }
 
-public class ThreadCommunication {
+public class Test {
     public static void main(String[] args) {
         SharedResource resource = new SharedResource();
         Thread producerThread = new Thread(new Producer(resource));
