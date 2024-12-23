@@ -1,4 +1,4 @@
-package ThreadC;
+package ThreadCommunication;
 
 class SharedResource {
     private int data;
